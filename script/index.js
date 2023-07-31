@@ -33,7 +33,7 @@ const main = () => {
               .attr('height', height)
               .style(`background-color`,"#1c1b1b")
 
-              const data = await d3.json("https://images.akika.ga/japan.json");
+              const data = await d3.json("https://raw.githubusercontent.com/akikaki-bot/cdn-priceless-web/main/japan.json");
 
               //console.log(data);
 
